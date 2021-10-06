@@ -1,0 +1,7 @@
+<center><h1>Artist Index Page: Show All Artists</h1></center>
+
+<% @artists.each do |artist| %>
+    <div><%= artist.name %></div>
+    <% end %>
+
+    <center><a href = '/artists/new'> Click here to add new artist </a></center>
