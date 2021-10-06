@@ -1,0 +1,9 @@
+<center><h1>Song Index Page: Show All Songs</h1></center>
+
+<% @songs.each do |song| %>
+	<div><p><%= song.name %></p></div>
+	<% end %>
+
+	<p></p>
+
+	<center><a href = '/songs/new'> Click here to add new song </a></center></center>

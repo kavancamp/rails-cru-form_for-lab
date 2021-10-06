@@ -1,0 +1,6 @@
+<center><h1>genre Index Page: Show All Genres</h1></center>
+<% @genre.each do |genre| %>
+    <div><%= genre.name %></div>
+    <% end %>
+
+    <center><a href = '/genres/new'>Add new genre</a></center>
